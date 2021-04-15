@@ -79,6 +79,7 @@
                                 <rect key="frame" x="107" y="566" width="200" height="90"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" secondItem="2jL-aU-9tY" secondAttribute="height" multiplier="20:9" id="13f-QU-bXZ"/>
                                     <constraint firstAttribute="height" constant="90" id="6xP-I1-0pO"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="Lix-2r-IlD"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="90" id="RPv-oo-Zgt"/>
