@@ -37,7 +37,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="m9w-Db-mvn" kind="show" id="ua7-A1-Au6"/>
+                                    <action selector="tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Obx-7q-lmd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -53,6 +53,7 @@
                     <connections>
                         <outlet property="button" destination="eaC-2j-b7r" id="VaR-9r-jaq"/>
                         <outlet property="imageView" destination="HaS-6Z-MYN" id="Wch-y5-t5U"/>
+                        <segue destination="m9w-Db-mvn" kind="show" identifier="showSecondScreen" id="Hn7-gU-f0W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
