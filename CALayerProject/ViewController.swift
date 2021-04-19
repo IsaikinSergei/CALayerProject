@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CAAnimationDelegate {
     
     var shapeLayer: CAShapeLayer! {
         didSet {
@@ -92,11 +92,21 @@ class ViewController: UIViewController {
     }
 
     @IBAction func tapped(_ sender: UIButton) {
-        overShapeLayer.strokeEnd += 0.2
-        if overShapeLayer.strokeEnd == 1 {
-            performSegue(withIdentifier: "showSecondScreen", sender: self)
-        }
+        let animation = CABasicAnimation(keyPath: "strokeEnd")
+        animation.toValue = 1
+        animation.duration = 2
+        
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+        animation.fillMode = CAMediaTimingFillMode.both
+        animation.isRemovedOnCompletion = false
+        
+        animation.delegate = self
+        
+        overShapeLayer.add(animation, forKey: nil)
     }
     
+    func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
+        performSegue(withIdentifier: "showSecondScreen", sender: self)
+    }
 }
 
