@@ -90,6 +90,9 @@
                                 <state key="normal" title="Take the Cup">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="tapped:" destination="m9w-Db-mvn" eventType="touchUpInside" id="qym-DL-qDA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KLf-0N-vSf"/>
