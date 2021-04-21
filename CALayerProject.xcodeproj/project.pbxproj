@@ -14,6 +14,9 @@
 		EA71FC8E26262D1000AEC5C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA71FC8D26262D1000AEC5C5 /* Assets.xcassets */; };
 		EA71FC9126262D1000AEC5C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA71FC8F26262D1000AEC5C5 /* LaunchScreen.storyboard */; };
 		EA71FC9A2626317100AEC5C5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71FC992626317100AEC5C5 /* SecondViewController.swift */; };
+		EA71FD0D26309A6200AEC5C5 /* Снимок экрана 2021-04-21 в 21.22.50.png in Resources */ = {isa = PBXBuildFile; fileRef = EA71FD0C26309A6100AEC5C5 /* Снимок экрана 2021-04-21 в 21.22.50.png */; };
+		EA71FD1026309A6E00AEC5C5 /* Снимок экрана 2021-04-21 в 21.23.14.png in Resources */ = {isa = PBXBuildFile; fileRef = EA71FD0F26309A6E00AEC5C5 /* Снимок экрана 2021-04-21 в 21.23.14.png */; };
+		EA71FD1326309A7B00AEC5C5 /* Запись экрана 2021-04-21 в 21.32.03.mov in Resources */ = {isa = PBXBuildFile; fileRef = EA71FD1226309A7B00AEC5C5 /* Запись экрана 2021-04-21 в 21.32.03.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		EA71FC9026262D1000AEC5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA71FC9226262D1000AEC5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA71FC992626317100AEC5C5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EA71FD0C26309A6100AEC5C5 /* Снимок экрана 2021-04-21 в 21.22.50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2021-04-21 в 21.22.50.png"; sourceTree = "<group>"; };
+		EA71FD0F26309A6E00AEC5C5 /* Снимок экрана 2021-04-21 в 21.23.14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2021-04-21 в 21.23.14.png"; sourceTree = "<group>"; };
+		EA71FD1226309A7B00AEC5C5 /* Запись экрана 2021-04-21 в 21.32.03.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Запись экрана 2021-04-21 в 21.32.03.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,7 @@
 		EA71FC7826262D0F00AEC5C5 = {
 			isa = PBXGroup;
 			children = (
+				EA71FD0A263096BC00AEC5C5 /* Screenshots */,
 				EA71FC8326262D0F00AEC5C5 /* CALayerProject */,
 				EA71FC8226262D0F00AEC5C5 /* Products */,
 			);
@@ -68,6 +75,16 @@
 				EA71FC9226262D1000AEC5C5 /* Info.plist */,
 			);
 			path = CALayerProject;
+			sourceTree = "<group>";
+		};
+		EA71FD0A263096BC00AEC5C5 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				EA71FD0C26309A6100AEC5C5 /* Снимок экрана 2021-04-21 в 21.22.50.png */,
+				EA71FD1226309A7B00AEC5C5 /* Запись экрана 2021-04-21 в 21.32.03.mov */,
+				EA71FD0F26309A6E00AEC5C5 /* Снимок экрана 2021-04-21 в 21.23.14.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +144,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA71FD0D26309A6200AEC5C5 /* Снимок экрана 2021-04-21 в 21.22.50.png in Resources */,
+				EA71FD1326309A7B00AEC5C5 /* Запись экрана 2021-04-21 в 21.32.03.mov in Resources */,
 				EA71FC9126262D1000AEC5C5 /* LaunchScreen.storyboard in Resources */,
+				EA71FD1026309A6E00AEC5C5 /* Снимок экрана 2021-04-21 в 21.23.14.png in Resources */,
 				EA71FC8E26262D1000AEC5C5 /* Assets.xcassets in Resources */,
 				EA71FC8C26262D0F00AEC5C5 /* Main.storyboard in Resources */,
 			);
